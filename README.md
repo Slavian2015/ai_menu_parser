@@ -1,4 +1,4 @@
-# ai_menu_parser
+# AI Menu parser
 AI PDF file reader to extract structured data
 
 
@@ -8,6 +8,10 @@ AI PDF file reader to extract structured data
 - [AI tools for PDF structuring and parsing](docs/AI_PDF_EXTRACTION_OPTIONS.md)
 - [Agent coding rules for GPT and Claude Code](AGENTS.md)
 
+
+## My AI usage workflow
+
+- [Project build and AI usage note](docs/PROJECT_BUILD_AND_AI_USAGE_NOTE.md)
 
 # Start the project
 
@@ -31,8 +35,6 @@ AI PDF file reader to extract structured data
 
 5. **Run the pipeline**:
    1. Process all PDFs in inbox: `python -m src.main`
-   2. Process one PDF: `python -m src.main --file "src/data/inbox/espn_bet (1).pdf"`
-   3. Evaluate existing JSON only: `python -m src.main --evaluate-json path/to/result.json`
 
 ## Current Structure
 
