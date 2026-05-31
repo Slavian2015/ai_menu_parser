@@ -1,0 +1,12 @@
+{
+  "schema_name": "StructuredDocument",
+  "checked_at": "2026-05-31T12:58:07.229282+00:00",
+  "passed": true,
+  "score": 1.0,
+  "deterministic_valid": true,
+  "ai_valid": true,
+  "checked_by_model": "gpt-5.5",
+  "skipped_reason": null,
+  "summary": "Candidate JSON is structurally valid against the target schema. It contains a top-level data array, all entries are objects with required keys, nullable fields are handled correctly, prices and dish names are strings or null where allowed, and all dish_id values match the required three-digit format.",
+  "issues": []
+}
